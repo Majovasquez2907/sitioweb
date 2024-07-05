@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+.contenedor{
+padding: 60px 0;
+width: 90%;
+max-width: 1000px;
+margin: auto;
+overflow: hidden;
+}
+
+.titulo{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #E55D87;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5fc3e488, #e55d8883), url(../imagenes/portada\ momentanea.PNG);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5fc3e488, #e55d8883), url(imagenes/portada\ momentanea.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 40px 50px 0 0;
+}
+
+nav > a{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 100px;
+    color: white;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+.wave{
+    
+    bottom: 10;
+    width: 100;
+}
+
+/* Sobre mi */
+
+.contenedor-sobre-nosotros{
+    display: flex ;
+justify-content: space-evenly;
+
+}
+
+.imagen-about-us{
+    width: 48%; 
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.btn{
+    display:inline-block;
+    background-color: palevioletred;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 20px;
+    margin: 10px 15px;
+    padding: 15px 20px;
+}
+ .btn:hover {
+    background: transparent;
+    border: 2px solid palevioletred;
+    color: palevioletred;
+ }
+
+
+ /* Porkyresumen */
+
+ .about-problemas{
+    background-color: rgba(247, 226, 233, 0.76);
+    padding-bottom: 30px;
+ }
+
+ .problemas-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .problemas-ind{
+    width: 28%;
+    text-align: center;
+ }
+
+ .problemas-ind img{
+    width: 90%;
+    height: 250px;
+ }
+ 
+ .problemas-ind h3{
+    margin: 10px 10px;
+ }
+
+ .contenedor-ahorro{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .video-ahorro{
+    width: 68%;
+    
+ }
+
+ .contenido-textos h3{
+    margin-bottom: 15px;
+ }
+
+ .contenedor-funcion {
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+.imagen-funcion{
+   width: 48%;
+}
+
+.funcion .contenido-texto{
+   width: 48%;
+}
+
+.contenido-texto h3{
+   margin-bottom: 15px;
+}
+
+.contenido-texto p{
+   padding: 0px 0px 30px 15px;
+   font-weight: 300;
+   text-align: justify;
+}
+
+.btn{
+   display:inline-block;
+    background-color: palevioletred;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 20px;
+    margin: 10px 15px;
+    padding: 15px 20px;
+}
+ .btn:hover {
+    background: transparent;
+    border: 2px solid palevioletred;
+    color: palevioletred;
+ }
+
+
+ .compras {
+    padding: 0 0 100px 0;
+    text-align: center;
+ }
+
+ .compras h2 {
+    margin-bottom: 45px;
+ }
+
+ .compras-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+ }
+
+ .compras{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+ }
+ .comprar img{
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 250px;
+ }
+ 
+ .comprar-texto{
+    padding: 10px 10px 30px 10px;
+ }
+
+ .comprar-texto h3{
+    font-size: 18px;
+    color: #373737;
+    margin-bottom: 25px;
+ }
+
+ .comprar-texto p{
+    color: #444444;
+ }
+
+
+ 
+ /* video */
+
+ .about-video{
+    padding-bottom: 30px;
+ }
+ 
+ .contenedor{
+    display: flexbox;
+    align-items: center;
+ }
+
+ .contenido-textos h3{
+    margin bottom: ;: 10px 10px;
+ }
+
+ /* publico */
+
+ .contenedor-publico video {
+    position: static;
+    top: 30;
+    left: 0;
+    width: 100%;
+ }
+
+ /* footer */
+
+ footer{
+   background-color: palevioletred;
+   padding: 60px 0 30px 0;
+   margin: auto;
+   overflow: hidden;
+ }
+
+ .contenedor-footer{
+   display: flex;
+   width: 90%;
+   justify-content: space-evenly;
+   margin: auto;
+   padding-bottom: 50px;
+   border-bottom: 1px solid #ccc;
+ }
+
+ .content-foot{
+   text-align: center;
+ }
+
+ .content-foot h4{
+   color: white;
+   border-bottom: 3px solid #ffff;
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+ }
+
+ .content-foot p{
+   color: white;
+ }

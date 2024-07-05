@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+.contenedor{
+padding: 60px 0;
+width: 90%;
+max-width: 1000px;
+margin: auto;
+overflow: hidden;
+}
+
+.titulo{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #E55D87;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5fc3e488, #e55d8883), url(../imagenes/portada\ momentanea.PNG);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5fc3e488, #e55d8883), url(imagenes/portada\ momentanea.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 100px;
+    color: white;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+.wave{
+    
+    bottom: 10;
+    width: 100;
+}
+
+/* Infografía */
+
+.imagen-about-us{
+    width: 100%; 
+}
+
+
+/* Componentes */
+
+.componentes-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .componentes-ind{
+    width: 28%;
+    text-align: center;
+ }
+
+ .componentes-ind img{
+    width: 90%;
+    height: 120px;
+ }
+ 
+ .componentes-ind h3{
+    margin: 10px 10px;
+ }
+
+ /* Proceso */
+
+ .contenedor-bocetos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .bocetos-ind{
+    width: 28%;
+    text-align: center;
+ }
+
+ .bocetos-ind img{
+    width: 90%;
+    height: 220px;
+ }
+ 
+ .bocetos-ind h3{
+    margin: 10px 10px;
+ }
+
+ /* Collage */
+
+.container-botox{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .container-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid gap: 20px;
+    padding: 100px 0;
+ }
+
+ .box img{
+    width: 100;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .box:nth-child(1){
+    grid-column-start: span 2;
+ }
+
+ .box:nth-child(4){
+    grid-column-start: span 2;
+ }
+
+ /* Costos */
+
+ .contenedor-costos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .costos-ind{
+    width: 150%;
+    text-align: center;
+ }
+
+ .costos-ind img{
+    width: 100%;
+    height: 500px;
+ }
+
+ /* Lamina final */
+
+ .contenedor-lamina-final{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .lamina-ind{
+    width: 100%;
+    text-align: center;
+ }
+
+ .lamina-ind img{
+    width: 100%;
+    height: 450px;
+ }
